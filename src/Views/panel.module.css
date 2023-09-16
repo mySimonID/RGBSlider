@@ -92,6 +92,13 @@
   margin-right: auto;
   /* border:1px solid gray; */
 }
+
+@media (max-width: 700px) {
+  .colourPanelContainer {
+    max-width: 70px;
+  }
+}
+
 .colourPanel {
   display: flex;
   margin-left: auto;
