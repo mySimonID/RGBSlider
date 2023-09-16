@@ -97,6 +97,12 @@
   .colourPanelContainer {
     max-width: 70px;
   }
+  .number {
+    min-width: 50px;
+  }
+  .number label {
+    font-size: 18px;
+  }
 }
 
 .colourPanel {
