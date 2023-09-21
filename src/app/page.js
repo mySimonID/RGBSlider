@@ -39,7 +39,7 @@ export default function Home () {
       
       <main className={styles.main}>
       <div className={styles.pageTitle}>
-        <label>Corey's Colour Slider</label>
+        <label>Corey`s Colour Slider</label>
       </div>
         {/* <NumberBar handleChange={handleNumberChange} /> */}
 
