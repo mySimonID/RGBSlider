@@ -2,7 +2,7 @@
 import styles from './page.module.css'
 import panelStyles from '../Views/panel.module.css'
 
-import Head  from 'next/head';
+import Head from 'next/head'
 
 import NumberBar from '@/Views/NumberBar'
 import RGBContainer from '@/Views/RGBContainer'
@@ -34,10 +34,13 @@ export default function Home () {
     <div className={styles.container}>
       <Head>
         <title>RGB SLider</title>
-        <meta name="description" content="RGB Slider" />
+        <meta name='description' content='RGB Slider' />
       </Head>
-      <div className={styles.pageTitle}><label>Coreys Colour Slider</label></div>
+      
       <main className={styles.main}>
+      <div className={styles.pageTitle}>
+        <label>Corey's Colour Slider</label>
+      </div>
         {/* <NumberBar handleChange={handleNumberChange} /> */}
 
         <div className={styles.rgbPanelContainer}>{containers}</div>
